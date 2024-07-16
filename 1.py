@@ -10,4 +10,4 @@ for i in range(1, 1000000):
         arr.append(int(r, 2))
 
 
-print(oct(min(arr))[2:]) # 125
+print(min(arr)) # 85
