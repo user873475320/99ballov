@@ -20,4 +20,4 @@ for i in range(1, 1000000):
     if int(r, 2) > 80:
         arr.append(int(r, 2))
 
-print(oct(min(arr))[2:]) # 127
+print(oct(min(arr))[2:]) # Ответ: 127

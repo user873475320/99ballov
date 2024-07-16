@@ -1,6 +1,6 @@
 arr = []
-for i in range(1, 1000000):
-    r = bin(i)[2:]
+for n in range(1, 1000000):
+    r = bin(n)[2:]
     ch1 = sum(i for i in range(len(r)) if r[i] == '1') % 2
     ch2 = sum(i for i in range(len(r)) if r[i] == '0') % 2
 
@@ -10,4 +10,4 @@ for i in range(1, 1000000):
         arr.append(int(r, 2))
 
 
-print(min(arr)) # 85
+print(min(arr)) # Ответ: 85
